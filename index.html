@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VisaRadar Live | Schengen Randevu Takibi</title>
+  <meta name="description" content="Schengen randevu takibi, güncel gelişmeler ve redli dosya analizi tek platformda." />
+  <link rel="icon" href="assets/visaradar-logo.png" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-page="home">
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/visaradar-logo.png" alt="VisaRadar" class="brand-logo" />
+        <span>VisaRadar</span>
+      </a>
+      <nav class="menu">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="guncel-gelismeler.html">Güncel Gelişmeler</a>
+        <a href="randevu-durumu.html">Randevu Durumu</a>
+        <a href="red-analizi.html">Red Analizi</a>
+        <a href="hizmetler.html">Hizmetler</a>
+        <a href="iletisim.html">İletişim</a>
+      </nav>
+      <a class="btn primary" href="iletisim.html">Takip Talebi</a>
+    </div>
+  </header>
+
+  <main class="container main-home">
+    <section class="hero-grid">
+      <div class="hero card panel">
+        <div class="badge"><span class="dot"></span> Canlı Telegram Akışı + Randevu İstihbaratı</div>
+        <h1>Schengen randevu takibi, güncel gelişmeler ve güçlü dosya analizi tek yerde.</h1>
+        <p class="sub">VisaRadar; sıcak randevu gelişmelerini, redli dosya analizi desteğini ve profesyonel vize danışmanlığını tek platformda birleştirir.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="randevu-durumu.html">Randevu Durumuna Git</a>
+          <a class="btn" href="red-analizi.html">Redli Dosya Analizi</a>
+        </div>
+        <div class="stats-grid">
+          <div class="stat"><b>Canlı</b><span>Telegram senkron widget</span></div>
+          <div class="stat"><b>Schengen</b><span>Ülke bazlı takip yapısı</span></div>
+          <div class="stat"><b>Premium</b><span>Redli dosya danışmanlığı</span></div>
+        </div>
+      </div>
+
+      <aside class="card panel live-panel">
+        <div class="live-head">
+          <div>
+            <div class="eyebrow">VISARADAR LIVE</div>
+            <h2>Acil Gelişmeler</h2>
+          </div>
+          <span class="pill success">Canlı</span>
+        </div>
+        <div id="live-alerts" class="alerts-list"></div>
+        <div class="cta-row compact">
+          <a class="btn" href="guncel-gelismeler.html">Tüm gelişmeler</a>
+          <a class="btn" id="telegram-channel-link" href="#" target="_blank" rel="noopener">Telegram Kanalı</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-grid">
+      <div class="card panel">
+        <h3>Canlı Akış Nasıl Çalışır?</h3>
+        <p class="sub">Telegram kanalında paylaşılan son bildirimler otomatik olarak bu sayfadaki canlı akış kutusuna yansır. Test aşamasında veriler kısa süreli bellekte tutulur; kalıcı veri için bir sonraki aşamada Netlify Blobs veya Supabase bağlanabilir.</p>
+      </div>
+      <div class="card panel">
+        <h3>Örnek Format</h3>
+        <p class="sub mono">🇮🇹 İtalya | Turistik | Kapalı | 09:15</p>
+        <p class="sub mono">🇦🇹 Avusturya | Bekleme listesi açık | 10:32</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating-live card panel">
+    <div class="live-head small">
+      <div>
+        <div class="eyebrow">VISARADAR LIVE</div>
+        <h3>Acil Gelişmeler</h3>
+      </div>
+      <span class="pill success">Anlık</span>
+    </div>
+    <div id="live-alerts-mini" class="alerts-list mini"></div>
+    <a class="btn primary wide" id="telegram-channel-link-mini" href="#" target="_blank" rel="noopener">Telegram kanalını aç</a>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
