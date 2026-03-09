@@ -1,8 +1,16 @@
-{
-  "name": "visaradar-live",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@netlify/blobs": "^8.1.0"
+[
+  {
+    "country": "Fransa",
+    "type": "Ticari",
+    "date": "08.04.2026",
+    "city": "İstanbul",
+    "status": "En erken randevu"
+  },
+  {
+    "country": "İsveç",
+    "type": "Ziyaret",
+    "date": "09.03.2026",
+    "city": "Altunizade",
+    "status": "Açık"
   }
-}
+]
