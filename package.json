@@ -1,16 +1,16 @@
 [
   {
-    "country": "Fransa",
-    "type": "Ticari",
-    "date": "08.04.2026",
+    "country": "İtalya",
+    "type": "Turistik",
+    "date": "Kapalı",
     "city": "İstanbul",
-    "status": "En erken randevu"
+    "status": "Yeni slot yok"
   },
   {
-    "country": "İsveç",
+    "country": "Avusturya",
     "type": "Ziyaret",
-    "date": "09.03.2026",
+    "date": "Bekleme listesi açık",
     "city": "Altunizade",
-    "status": "Açık"
+    "status": "Aktif"
   }
 ]
